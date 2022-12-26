@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Slab", serif;
+  color: rgb(46, 45, 48);
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 10%;
+  background-color: rgb(89, 0, 255);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+section#title h1 a {
+  font-family: "Roboto";
+}
+
+header section nav ul {
+  display: flex;
+}
+
+header section nav ul li a {
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+}
+
+main {
+  width: 80%;
+  margin: 3rem auto;
+}
